@@ -15,9 +15,6 @@ $aliases['drupalvm.dev'] = [
   'path-aliases' => [
     '%drush-script' => '/var/www/drupalvm/drupal/vendor/drush/drush/drush',
   ],
-  '#env-vars' => [
-    'TEST_VAR' => 'Test environment variable value',
-  ],
 ];
 
 $aliases['www.drupalvm.dev'] = [
@@ -28,8 +25,5 @@ $aliases['www.drupalvm.dev'] = [
   'ssh-options' => '-o PasswordAuthentication=no -i ' . '/.vagrant.d/insecure_private_key',
   'path-aliases' => [
     '%drush-script' => '/var/www/drupalvm/drupal/vendor/drush/drush/drush',
-  ],
-  '#env-vars' => [
-    'TEST_VAR' => 'Test environment variable value',
   ],
 ];
